@@ -9,3 +9,6 @@ Normalization, Dimensionality Reduction, Clustering, plots - Seurat
 Data Integration- Harmony, Seurat (merge)
 Differential expression - scran, scater
 Trajector inference- Monocle
+
+
+Currently I am analyzing single-cell RNA-seq obtained in DO EBs (Embryonic bodies) in the Baker lab. For this, I will be using the demultiplexing pipeline by Chris Mcginnis (https://github.com/chris-mcginnis-ucsf/MULTI-seq) and then perform Cell ranger and Kallisto-bustools for alignment and getting the matrices. I can then use the Seurat pipeline given here for further analysis. 
